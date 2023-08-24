@@ -24,16 +24,23 @@ function Header() {
             <h1 className="text-white text-5xl font-bold">
               Olá! Me chamo Luiz
             </h1>
-            <p className="text-white py-4 max-w-lg ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In qui
-              impedit sunt, est molestiae ullam. Saepe voluptatum ducimus
-              adipisci pariatur. adipisicing elit. In qui impedit ipsum dolor
-              sit amet consectetur
+            <p className="text-white py-4 max-w-lg text-lg">
+              Um apaixonado desenvolvedor full-stack com um foco sólido em
+              back-end e experiência em front-end. Aqui você encontrará uma
+              coleção das minhas melhores obras e um vislumbre das minhas
+              habilidades técnicas. Meu objetivo é criar soluções tecnológicas
+              eficazes e elegantes que impulsionem o mundo digital. Explore o
+              meu portfólio e descubra como minhas habilidades podem transformar
+              sua visão em realidade.
             </p>
-            <button className="  text-white text-2xl">
+            <a
+              href="https://api.whatsapp.com/send/?phone=%2B5521971618786&text&type=phone_number&app_absent=0"
+              target="_blank"
+              className="  text-white text-2xl"
+            >
               Vamos nos conectar{" "}
               <i className="fa-solid fa-arrow-right text-lg  p-[2px] "></i>{" "}
-            </button>
+            </a>
           </div>
           <div className="image banner-astronout lg:hidden absolute w-[300px] flex ">
             <img className="w-96 ast-img" src={logo1} alt="" />
