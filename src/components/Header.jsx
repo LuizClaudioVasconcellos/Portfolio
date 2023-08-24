@@ -36,6 +36,7 @@ function Header() {
             <a
               href="https://api.whatsapp.com/send/?phone=%2B5521971618786&text&type=phone_number&app_absent=0"
               target="_blank"
+              rel="noopener noreferrer"
               className="  text-white text-2xl"
             >
               Vamos nos conectar{" "}

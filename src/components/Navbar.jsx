@@ -63,9 +63,16 @@ function Navbar() {
             </a>
           </div>
           <div className="btn">
-            <button className="border-[1px] border-white border-solid py-2 px-4 hover:bg-white hover:text-black font-bold">
-              Download CV
-            </button>
+            <a
+              href="downloads/Luiz_Claudio_Vasconcellos_Curriculo.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+            >
+              <button className="border-[1px] border-white border-solid py-2 px-4 hover:bg-white hover:text-black font-bold">
+                Download CV
+              </button>
+            </a>
           </div>
         </nav>
         <i
