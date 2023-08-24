@@ -1,6 +1,8 @@
 import React from "react";
 import img from "../assets/images/contact-img.svg";
 
+const formsPree = process.env.REACT_APP_LINK_FORMSPREE;
+
 function Contact() {
   return (
     <>
@@ -11,11 +13,7 @@ function Contact() {
           </div>
           <div className="content-box">
             <h1 className="text-white font-bold text-4xl">Entrar em Contato</h1>
-            <form
-              action="https://formspree.io/f/xpzgdyel"
-              method="POST"
-              className="flex flex-col "
-            >
+            <form action={formsPree} method="POST" className="flex flex-col ">
               <div className="flex gap-4 py-2  ">
                 <input
                   className="bg-transparent h-14 rounded-2xl  border-[1px] border-white pl-4 text-white placeholder-white lg:w-36 "
