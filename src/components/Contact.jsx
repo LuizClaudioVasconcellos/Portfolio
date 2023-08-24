@@ -11,16 +11,22 @@ function Contact() {
           </div>
           <div className="content-box">
             <h1 className="text-white font-bold text-4xl">Entrar em Contato</h1>
-            <form action="" className="flex flex-col ">
+            <form
+              action="https://formspree.io/f/xpzgdyel"
+              method="POST"
+              className="flex flex-col "
+            >
               <div className="flex gap-4 py-2  ">
                 <input
                   className="bg-transparent h-14 rounded-2xl  border-[1px] border-white pl-4 text-white placeholder-white lg:w-36 "
                   type="text"
+                  name="Nome"
                   placeholder="Nome"
                 />
                 <input
                   className="bg-transparent h-14  rounded-2xl  border-[1px] border-white pl-4 text-white placeholder-white  lg:w-36"
                   type="text"
+                  name="Sobrenome"
                   placeholder="Sobrenome"
                 />
               </div>
@@ -28,11 +34,13 @@ function Contact() {
                 <input
                   className="bg-transparent h-14  rounded-2xl   border-[1px] border-white pl-4 text-white placeholder-white  lg:w-36"
                   type="email"
+                  name="Email"
                   placeholder="Email"
                 />
                 <input
                   className="bg-transparent h-14  rounded-2xl  border-[1px] border-white pl-4 text-white placeholder-white  lg:w-36"
                   type="phone"
+                  name="Telefone"
                   placeholder="Telefone"
                 />
               </div>
@@ -42,7 +50,10 @@ function Contact() {
                 cols={35}
                 placeholder="Mensagem"
               ></textarea>
-              <button className="bg-white border-black border-[1] py-[16px] rounded-lg px-8 my-8 w-32 font-bold ">
+              <button
+                type="submit"
+                className="bg-white border-black border-[1] py-[16px] rounded-lg px-8 my-8 w-32 font-bold "
+              >
                 Enviar
               </button>
             </form>
