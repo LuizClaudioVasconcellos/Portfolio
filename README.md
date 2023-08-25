@@ -17,25 +17,29 @@
 
 Para instalar o projeto, siga estas etapas:
 
-1. Clone o repositório:
+### 1. Clone o repositório:
 
-```bash
+```
 git clone https://github.com/LuizClaudioVasconcellos/Portfolio.git
 ```
 
-2. Instale as dependências com npm ou yarn:
+### 2. Instale as dependências com npm ou yarn:
 
-```bash
+```
 npm install -g
-# ou
+```
+OU
+```
 yarn install
 ```
 
-3. Inicie o servidor:
+### 3. Inicie o servidor:
 
-```bash
+```
 npm run dev
-# ou
+```
+OU
+```
 yarn dev
 ```
 
